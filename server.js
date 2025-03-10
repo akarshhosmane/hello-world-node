@@ -3,9 +3,9 @@ const app = express()
 const port = 5000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!-5')
+  res.send('Hello World!-6')
 })
 
 app.listen(port, () => {
-  console.log(`Example app5 listening at http://localhost:${port}`)
+  console.log(`Example app6 listening at http://localhost:${port}`)
 })
